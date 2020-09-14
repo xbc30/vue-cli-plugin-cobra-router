@@ -2,13 +2,6 @@
   <div id="app">
     <div id="nav">
       <p>
-        <language-switcher v-slot="{ links }">
-          <router-link :to="link.url" v-for="link in links" :key="link.langIndex">
-            <span class="item">{{ link.langName }}</span>
-          </router-link>
-        </language-switcher>
-      </p>
-      <p>
         <localized-link to="/">{{$t('home.nav')}}</localized-link>&nbsp;|&nbsp;
         <localized-link to="/about">{{$t('about.nav')}}</localized-link>&nbsp;|&nbsp;
         <localized-link to="/user/1">{{$t('user.nav')}}</localized-link>&nbsp;|&nbsp;

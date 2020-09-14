@@ -1,6 +1,6 @@
 {
 	"name": "vue-cli-plugin-cobra-router",
-	"version": "1.1.4",
+	"version": "1.1.5",
 	"description": "Vue CLI plugin, Support automatic generation of international routing table and dynamic update of meta information",
 	"main": "index.js",
 	"files": [
