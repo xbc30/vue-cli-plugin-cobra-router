@@ -1,0 +1,18 @@
+{
+    "layouts": {
+        "header": "This is a default layout header",
+        "footer": "This is a default layout footer"
+    },
+    "home": {
+        "nav": "Home",
+        "title": "This is an home page"
+    },
+    "about": {
+        "nav": "About",
+        "title": "This is an about page"
+    },
+    "user": {
+        "nav": "User Center",
+        "title": "This is an usercenter page"
+    }
+}
